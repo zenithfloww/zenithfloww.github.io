@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Layout Plek Ketiplek</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      font-family: sans-serif;
+      color: white;
+    }
+
+    .header {
+      background-color: #a30000; /* Merah pekat */
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .nav {
+      background-color: #ff8c00; /* Oranye terang */
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .sidebar {
+      background-color: #d05d4e; /* Merah muda */
+      width: 20%;
+      padding: 60px 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .content {
+      background-color: #ff9900; /* Oranye lebih cerah */
+      width: 60%;
+      padding: 60px 10px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .footer {
+      background-color: #a30000;
+      padding: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Header</div>
+
+  <div class="nav">Menu Navigasi</div>
+
+  <div class="main">
+    <div class="sidebar">Sidebar</div>
+    <div class="content">Content</div>
+    <div class="sidebar">Sidebar</div>
+  </div>
+
+  <div class="footer">Footer</div>
+
+</body>
+</html>
+``
